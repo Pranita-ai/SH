@@ -18,6 +18,7 @@ cy.get('@productLocator').find('.product').eq(2).contains('ADD TO CART').click()
     console.log('sf')
       console.log('sfa')
       console.log('sfa')
+      console.log('sfa')
 })
 
 
