@@ -16,6 +16,8 @@ cy.get('@productLocator').find('.product').should('have.length', 4)
 cy.get('@productLocator').find('.product').eq(2).contains('ADD TO CART').click().then(function(){
 
     console.log('sf')
+      console.log('sfa')
+      console.log('sfa')
 })
 
 

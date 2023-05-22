@@ -28,6 +28,7 @@ it.skip("Test1", function(){
 it("Static Dropdown", function(){
 
     cy.get('select').select('option2').should('have.value','option2')
+      cy.get('select').select('option2').should('have.value','option2')
 
 })
 // Dynamic Dropdown
