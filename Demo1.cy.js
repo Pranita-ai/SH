@@ -3,7 +3,8 @@
 it("Test1", function(){
 
 
-cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/")
+cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/").click()
+cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/").click()
 
 cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/").click()
 
@@ -24,6 +25,8 @@ cy.get('@productLocator').find('.product').eq(2).contains('ADD TO CART').click()
       console.log('sfa')
       console.log('sfa')
       console.log('sfa')
+         console.log('sfa')
+      
 })
 
 
