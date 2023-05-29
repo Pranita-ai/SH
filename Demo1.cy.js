@@ -7,6 +7,7 @@ cy.get(':nth-child(1) > .product-action > button').click()
 cy.get('.cart-icon > img').click()
 cy.get(':nth-child(1) > .product-action > button').click()
 cy.wait(2000)
+    cy.wait(2000)
 cy.get('.search-keyword').type('ca').click()
 cy.get('.product:visible').should('have.length', 4 )
 
