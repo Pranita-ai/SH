@@ -5,6 +5,7 @@ it("Test1", function(){
 
 cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/").click()
 cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/").click()
+cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/").click()
 
 cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/").click()
 
