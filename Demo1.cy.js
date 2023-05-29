@@ -2,7 +2,7 @@
 
 it("Test1", function(){
 
-cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/")
+cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/")...
 cy.get(':nth-child(1) > .product-action > button').click()
 cy.get('.cart-icon > img').click()
 cy.get(':nth-child(1) > .product-action > button').click()
